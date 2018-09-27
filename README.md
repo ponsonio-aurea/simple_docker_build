@@ -20,5 +20,5 @@ Docker Cloud PoC to test the APIs
 * **Identified Risk and Mitigation**
   * No documented or formar api to create private registry : identify and use the api as part of the poc
   * Build cache?
-  * Limmits
-    [Docker Cloud Quotas](https://success.docker.com/article/does-docker-cloud-have-quotas)
+  * Limits
+    * [Docker Cloud Quotas](https://success.docker.com/article/does-docker-cloud-have-quotas)
