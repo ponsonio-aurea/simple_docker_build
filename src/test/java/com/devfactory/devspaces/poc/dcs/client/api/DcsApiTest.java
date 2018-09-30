@@ -9,8 +9,8 @@ public class DcsApiTest {
 
     @Test
     public void testGetAction() {
-        DcsApi api = new DcsApi("user", "api-key");
-        JsonObject json = api.executeGet("audit/v1/action/");
+        DcsApi api = new DcsApi("ponsonio", "0c4776a9-9a60-4c30-8366-c06cd662d802");
+        JsonObject json = api.executeGet("/api/audit/v1/action/");
         assertEquals(json.getJsonObject("meta").getInt("limit"), 25);
     }
 }
